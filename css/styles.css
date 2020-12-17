@@ -1,0 +1,51 @@
+body{
+    color:#333;
+    font-family: Verdana,sans-serif;
+    margin: 0;
+}
+
+.container{
+    background-color: #efefef;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #333;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+li p{
+    width: 210px;
+}
+
+li{
+    border-style: groove;
+    padding:16px;
+}
