@@ -2,6 +2,7 @@ body{
     color:#333;
     font-family: Verdana,sans-serif;
     margin: 0;
+    background-image: url('../img/back.jpg');
 }
 
 .container{
@@ -9,13 +10,17 @@ body{
     margin: 0;
 }
 
+.background{
+
+}
+
 h1{
     margin: 0;
 }
 
 header{
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
     padding-left: auto;
@@ -27,7 +32,7 @@ img{
     border-radius: 10px;
     border-width: 4px;
     border-style: solid;
-    border-color: #333;
+    border-color: #337;
 }
 
 ul{
@@ -46,6 +51,8 @@ li p{
 }
 
 li{
+    border-radius:10px;
+    background-color:#ddd;
     border-style: groove;
     padding:16px;
 }
